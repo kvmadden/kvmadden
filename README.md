@@ -1,8 +1,8 @@
 ### Kevin Madden
 
-**Healthcare leader and pharmacist who designs, builds and tests AI and clinical software.**
+**Healthcare leader and pharmacist who designs and tests AI tools for clinical and pharmacy work.**
 
-I bring a clinician's view from 16 years in healthcare: caring for patients, leading care teams, and rolling out new clinical programs and technology across many sites.
+I bring a clinician's view from 15+ years in healthcare: caring for patients, leading care teams, and rolling out new clinical programs and technology across many sites.
 
 **How I work:** Start with a problem from the field, build, measure, and publish the limits.
 
