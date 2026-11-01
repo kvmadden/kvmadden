@@ -1,4 +1,4 @@
-### Kevin V. Madden, PharmD
+### Kevin Madden
 
 **Healthcare leader and pharmacist who designs, builds and tests AI and clinical software.**
 
