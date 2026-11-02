@@ -9,8 +9,9 @@ I bring a clinician's view from 15+ years in healthcare: caring for patients, le
 ### Selected public work
 
 **AI systems and evaluation**
-- [pii-redaction-gate](https://github.com/kvmadden/pii-redaction-gate): clinical text redaction with 90.3% identifier recall on the original synthetic set and 96.3% on a frozen held-out set. [Every miss published](https://github.com/kvmadden/pii-redaction-gate/blob/main/eval/comparison.md), not validated for clinical use.
-- [knowledge-mcp](https://github.com/kvmadden/knowledge-mcp): shared agent memory with audit decisions and dry-run review before resubmission. Frozen red-team set: 30/40 risky writes blocked, 5/20 benign writes falsely blocked.
+- [clinical-evidence-map](https://github.com/kvmadden/clinical-evidence-map): a review workspace for faxed prior-authorization packets where every finding points to its source words, 728 of 728 on 50 synthetic packets. It still calls documentation missing on skewed scans. Labels are drafts pending pharmacist review.
+- [pii-redaction-gate](https://github.com/kvmadden/pii-redaction-gate): clinical text redaction that removed 104 of 108 identifiers on a synthetic test set locked before the rules changed. [Every miss published](https://github.com/kvmadden/pii-redaction-gate/blob/main/eval/comparison.md), not validated for clinical use.
+- [knowledge-mcp](https://github.com/kvmadden/knowledge-mcp): shared agent memory where every save passes one gate, with audit decisions and dry-run review. On attacks written before the change it now stops 4 of 6 kinds it used to miss, and it wrongly blocks a harmless security quote.
 - [local-model-workshop](https://github.com/kvmadden/local-model-workshop): a pharmacist's schema review changed the extraction task. Qwen scored 12/12 on the frozen synthetic holdout under the revised schema, but missed the latency budget.
 - [jargon](https://github.com/kvmadden/jargon): personalized AI explanations with a second-model check. An offline eval found 5 wrong outputs among 78 accepted (6.4%), a floor from partial expert review.
 
