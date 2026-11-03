@@ -18,7 +18,7 @@ I bring a clinician's view from 15+ years in healthcare: caring for patients, le
 **Clinical learning and agent tooling**
 - [counter-intelligence-sim](https://github.com/kvmadden/counter-intelligence-sim): vaccine conversation practice with 24 CDC-sourced claims across five fictional patients. The build blocks missing sources or author review stamps. [Play](https://counter-intelligence.vercel.app)
 - [vax-or-fiction-game](https://github.com/kvmadden/vax-or-fiction-game): immunization discussion game with 150 distinct questions and citations on all 180 question appearances. Content has no clinical review.
-- [operator-skills](https://github.com/kvmadden/operator-skills): 10 coding-agent skills and 117 correction rules, with 28/28 synthetic routing checks passing. Live agent behavior is unmeasured.
+- [operator-skills](https://github.com/kvmadden/operator-skills): 10 coding-agent skills and 117 correction rules. 117 of 117 rules pass a structure check. No routing score is quoted, because the old check counted text Claude Code does not read when it picks a skill. Live agent behavior is unmeasured.
 
 [More selected work](https://kvmadden.com/projects)
 
