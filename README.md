@@ -16,7 +16,7 @@ I bring a clinician's view from 15+ years in healthcare: caring for patients, le
 - [jargon](https://github.com/kvmadden/jargon): personalized AI explanations, each checked by the same model before it's shown. An offline eval found 5 wrong outputs among 78 accepted (6.4%), a floor from partial expert review.
 
 **Clinical learning and agent tooling**
-- [counter-intelligence-sim](https://github.com/kvmadden/counter-intelligence-sim): vaccine conversation practice with 24 CDC-sourced claims across five fictional patients. The build blocks missing sources or author review stamps. [Play](https://counter-intelligence.vercel.app)
+- [counter-intelligence-sim](https://github.com/kvmadden/counter-intelligence-sim): vaccine conversation practice with 24 CDC-sourced claims across five fictional patients. The build blocks missing sources or author review stamps. [Case page](https://kvmadden.com/projects/counter-intelligence-sim/)
 - [vax-or-fiction-game](https://github.com/kvmadden/vax-or-fiction-game): immunization discussion game with 150 distinct questions and citations on all 180 question appearances. Content has no clinical review.
 - [operator-skills](https://github.com/kvmadden/operator-skills): a Claude Code plugin of 10 skills and 118 rules for agent-assisted coding. In a small live eval on November 3, Claude Code loaded none of its skills in 12 of 12 plugin runs, so as shipped it had no measured effect.
 
