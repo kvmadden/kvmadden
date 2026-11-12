@@ -1,8 +1,16 @@
-### Kevin Madden
+# Kevin Madden, PharmD
 
-**Healthcare leader and pharmacist who designs and tests AI tools for clinical and pharmacy work.**
+**Healthcare operations leader · Pharmacist · Builder and evaluator of clinical AI tools**
 
-My 15+ years at CVS span my total employment, from the pharmacy counter to leading care teams and rolling out clinical programs and technology across many sites. That experience shapes the questions I test: what counts as evidence, what a tool misses and when a person must decide.
+I help healthcare teams turn new ideas into routines that work in the field. My 15+ years at CVS Health span frontline pharmacy work, multi-site leadership, and the rollout of new clinical technology. I bring that experience to the AI tools I design and test: measure the result, name the limits, and keep a person responsible for the judgment.
+
+**What that looks like in practice**
+
+- **Leading teams:** Served as interim district leader for **19 pharmacies and more than 250 colleagues**.
+- **Making technology usable:** Led a district field rollout of two-way patient chat across **19 pharmacies and more than 60 pharmacists**, with training, listening sessions, and feedback to the product team.
+- **Connecting field and enterprise:** Built a patient-journey briefing used with **CVS senior vice presidents and vice presidents** for a Heart Health pilot in October 2026.
+
+[Résumé](https://kvmadden.com/resume) · [Selected work](https://kvmadden.com/projects/) · [LinkedIn](https://www.linkedin.com/in/kvmadden/) · [Email](mailto:kevin@kvmadden.com)
 
 **How I work:** Start with a problem from the field, build, measure, and publish the limits.
 
