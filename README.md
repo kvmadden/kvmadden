@@ -2,6 +2,8 @@
 
 Pharmacist and healthcare leader who designs AI tools for clinical work and tests where they fail.
 
+My independent projects focus on practical workflows, measurable results, and clearly stated limitations.
+
 **Selected work**
 
 - [Clinical evidence map](https://kvmadden.com/projects/clinical-evidence-map/): a review desk for faxed prior-authorization packets. In one test with synthetic packets, the routing system handled 73 of 120 calls without a reviewer, with zero silent errors against draft labels.

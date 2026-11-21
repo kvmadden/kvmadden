@@ -1,0 +1,45 @@
+name: GitHub profile quality
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check profile headings and links
+        run: |
+          python3 - <<'PY'
+          import re
+          from pathlib import Path
+          from urllib.parse import urlsplit
+
+          readme = Path("README.md").read_text(encoding="utf-8")
+          assert readme.startswith("### Kevin Madden, PharmD\n"), "Missing profile heading"
+          assert "**Selected work**" in readme, "Missing selected work section"
+
+          selected = readme.split("**Selected work**", 1)[1].split("**[See every project", 1)[0]
+          projects = re.findall(r"(?m)^- \[([^\]]+)\]\(([^)]+)\):", selected)
+          assert len(projects) >= 1, "Selected work has no linked projects"
+
+          links = re.findall(r"\[([^\]]+)\]\(([^)]+)\)", readme)
+          assert len(links) >= len(projects) + 2, "Expected project and contact links"
+          for label, url in links:
+              assert label.strip(), "Empty link label"
+              parsed = urlsplit(url)
+              assert parsed.scheme in {"https", "mailto"}, f"Unsupported link: {url}"
+              if parsed.scheme == "https":
+                  assert parsed.netloc, f"Missing link host: {url}"
+              else:
+                  assert "@" in parsed.path, f"Invalid email link: {url}"
+
+          assert "soundmark.xyz" not in readme, "Reference to unrelated domain"
+          assert "localhost" not in readme.lower(), "Local-only URL in public profile"
+          print(f"Profile check passed: {len(projects)} projects, {len(links)} links.")
+          PY
