@@ -1,6 +1,8 @@
 ### Kevin Madden, PharmD
 
-Pharmacist and healthcare leader who designs AI tools for clinical work and tests where they fail.
+Pharmacist and CVS Pharmacy field leader in Central West Florida. I led a district-level rollout of two-way patient chat and coached adoption across 19 pharmacies and more than 60 pharmacists.
+
+Separately, I build and test AI tools for clinical work. I publish their limits alongside their results.
 
 **Selected work**
 
